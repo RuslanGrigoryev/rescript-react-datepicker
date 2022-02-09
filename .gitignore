@@ -1,2 +1,9 @@
 node_modules/
 package-lock.json
+
+/**/*.bs.js
+
+/lib
+
+.bsb.lock
+.merlin
