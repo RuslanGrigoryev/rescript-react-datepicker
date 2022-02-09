@@ -1,0 +1,40 @@
+{
+  "license": "MIT",
+  "keywords": [
+    "rescript",
+    "rescript-bindings",
+    "bindings",
+    "react",
+    "react-datepciker",
+    "bucklescript"
+  ],
+  "main": "lib/js/src/URL.bs.js",
+  "scripts": {
+    "clean": "rescript clean",
+    "build": "rescript",
+    "start": "rescript build -w",
+    "build:deps": "rescript build -with-deps",
+    "pretest": "npm run build"
+  },
+  "name": "rescript-react-datepicker",
+  "description": "react-datepicker bindings for [Rescript](https://rescript-lang.org/).",
+  "version": "0.0.1",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanGrigoryev/rescript-react-datepicker.git"
+  },
+  "author": "Ruslan Grigoryev <rus.grigoryev@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/RuslanGrigoryev/rescript-react-datepicker/issues"
+  },
+  "homepage": "https://github.com/RuslanGrigoryev/rescript-react-datepicker#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.4"
+  },
+  "dependencies": {
+    "rescript": "^9.1.3"
+  }
+}
