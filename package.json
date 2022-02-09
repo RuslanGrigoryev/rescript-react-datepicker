@@ -16,7 +16,7 @@
   },
   "name": "rescript-react-datepicker",
   "description": "react-datepicker bindings for [Rescript](https://rescript-lang.org/).",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "directories": {
     "lib": "lib"
   },
